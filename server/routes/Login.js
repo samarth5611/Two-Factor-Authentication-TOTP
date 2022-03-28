@@ -14,7 +14,7 @@ router.post("/login", (req, res) => {
         req.body.uemail == commons.userObject.uemail &&
         req.body.upassword == commons.userObject.upassword
       ) {
-        console.log(`DEBUG: Login without TFA is successful`);
+        console.log(`DEBUG: Login with TFA is successful`);
 
         return res.send({
           status: 200,

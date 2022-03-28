@@ -14,8 +14,9 @@ function Login() {
       upassword: Password,
     });
 
-    if (status == 200) {
-    }
+    // if (status == 200) {
+    //   window.href()
+    // }
   }
 
   return (
